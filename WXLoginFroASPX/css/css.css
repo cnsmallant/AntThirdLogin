@@ -1,0 +1,16 @@
+﻿html{
+font-family:'Microsoft YaHei';
+}
+.ant_login_box{
+    padding:10px;
+      margin:0px auto;
+    margin-top:100px;
+    width:500px;
+    height:auto;
+    border:1px solid GrayText;
+    text-align:center;
+}
+.ant_login_box_img{
+    width:120px;
+    height:120px;
+}
