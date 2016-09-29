@@ -19,7 +19,7 @@ public class UrlStr
             var response_type = "token";
             var scope = "all";
             var redirect_uri = "callbackUrl";//你的回调页面（例如：http://www.smallant.net/callbackurl/）
-            var url = apiurl + "?" + "&client_id=" + client_id + "&response_type=" + response_type + "&scope" + scope + "&redirect_uri" + System.Web.HttpContext.Current.Server.UrlEncode(redirect_uri);
+            var url = apiurl + "?client_id=" + client_id + "&response_type=" + response_type + "&scope" + scope + "&redirect_uri" + System.Web.HttpContext.Current.Server.UrlEncode(redirect_uri);
             return url;
         }
         catch (Exception)
